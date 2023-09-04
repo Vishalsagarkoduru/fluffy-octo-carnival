@@ -13,8 +13,6 @@ public class DemoController {
     public void pringMsg(){
         for (int i=0;i<5;i++){
            logger.info("=========Hello World=========");
-           logger.info("=========Hello World===========");
         }
-return "hello World\n hello World\n hello World\n hello World\n"; 
+
     }
-}
