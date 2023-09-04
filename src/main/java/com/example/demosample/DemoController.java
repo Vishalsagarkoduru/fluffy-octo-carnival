@@ -12,7 +12,7 @@ public class DemoController {
     @GetMapping("/printmsg")
     public void pringMsg(){
         for (int i=0;i<5;i++){
-           logger.info("=========HelloWorld==========");
+           logger.info("=========Hello World1==========");
         }
 
     }
