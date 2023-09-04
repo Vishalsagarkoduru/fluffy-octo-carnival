@@ -14,6 +14,6 @@ public class DemoController {
         for (int i=0;i<5;i++){
            logger.info("=========Hello World=========");
         }
-return "hello World\n"; 
+return "hello World"; 
     }
 }
