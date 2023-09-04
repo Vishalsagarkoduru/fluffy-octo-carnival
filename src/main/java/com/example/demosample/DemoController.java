@@ -11,7 +11,7 @@ public class DemoController {
     Logger logger = (Logger) LoggerFactory.getLogger(DemoController.class);
     @GetMapping("/printmsg")
     public void pringMsg(){
-        for (int i=0;i<5;i++){
+        for (int i=0;i<1000;i++){
            logger.info("=========Hello World=========");
         }
 
